@@ -1,0 +1,84 @@
+a:any-link {
+    text-decoration: none;
+    color:#A43A6E;
+}
+h1, h2{
+    font-family: 'Montserrat','Helvetica Neue','helvetica',arial,sans-serif;
+    font-weight: 900;
+}
+h3{
+    font-family: 'Oswald','Bebas Neue',condensed,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h1,h2,h4,h5,h6{
+    text-align: center;
+    width: 100%;
+}
+
+#board1{
+    height: 100vh;
+    width: 100%;
+    background: url(../img/friendsFood.jpg) no-repeat center center #000;
+    background-size: cover;
+    margin: 0px;
+    padding: 20vh 0px 0px;
+}
+.row.logo-container{
+    text-align: center;
+    background: rgba(145,1,77,0.7);
+    padding: 0px 0px 20px;
+    color: #FFF;
+    margin: 0px 0px 40px;
+}
+.row.logo-container h1, .row.logo-container h2{
+    text-align: center;
+    color: #FFF;
+}
+.montBold{
+    font-family: 'Montserrat','Helvetica Neue',helvetica,arial,sans-serif;
+    font-weight: 900;
+}
+.oswald{
+    font-family:'Oswald','Bebas Neue','Impact',condensed,sans-serif;
+}
+.row.logo-container h1{
+    font-size: 9rem;
+    line-height: 9rem;
+    margin: 0px;
+    padding: 0px;
+}
+.row.logo-container h2{
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+    font-weight: 100;
+    padding: 0px;
+}
+.row.logo-container .relax{
+    font-weight: 700;
+}
+
+.row.selection-container{
+    width: 90%;
+    margin: 0px auto;
+    background: rgba(0,0,0,0.3);
+    min-height: 250px;
+    border-radius: 20px 20px 80px 80px;
+}
+.row.selection-container h2{
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    background: #85B13C;
+    width: 50%;
+    height: 70px;
+    font-style: italic;
+    text-shadow: 2px 2px 0px #507614;
+    cursor: pointer;
+}
+.row.selection-container h2.inactive{
+    background: #689520;
+    color: #3e5e0b;
+    text-shadow: none;
+}
