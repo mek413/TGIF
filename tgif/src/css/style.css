@@ -82,3 +82,35 @@ h1,h2,h4,h5,h6{
     color: #3e5e0b;
     text-shadow: none;
 }
+#deliverIt label, #deliverIt input{
+    float:left;
+}
+.btn, button.deliver-btn {
+    margin: 0px auto 20px;
+    text-align: center;
+    border: 5px solid #000;
+    width: 90%;
+    padding: 30px;
+    display:block;
+    border-radius: 200px;
+    font-family: 'Oswald','Bebas Neue','Impact',condensed,sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.8);
+    color: #A43A6E;
+    transform: scale(1.0);
+    transition: all .25s ease .125s;
+    }
+    .deliverCat.btn.circle-btn{
+        color: #000;
+    }
+    .deliverCat.btn.circle-btn:hover{
+        color: #FFF;
+    }
+    .btn:hover{
+        background: #000;
+        color: #FFF;
+    }
+    .hide {
+        display: none;
+    }
