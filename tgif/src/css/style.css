@@ -114,3 +114,53 @@ h1,h2,h4,h5,h6{
     .hide {
         display: none;
     }
+    .flex.hide{
+        display: none;
+    }
+    .flex {
+        display: flex;
+    }
+    #enterZip{
+        flex-direction: row;
+        flex-wrap:wrap;
+        padding: 5px;
+        border: none;
+      }
+      #locationInput.location{
+        text-align: right;
+        margin: 0px auto;
+        max-width: 187.2%;
+      }
+      
+      input#zipSearch{
+        flex-basis: 20%;
+        margin: 0px auto 7px auto;
+        border-radius: 5px;
+        max-width: 100px;
+        border: 1px solid #999;
+        padding: 0px 5px;
+        color: #999;
+      }
+      .zipVarStore.btn{
+        padding: 0px 5px;
+        background: #000;
+        color:#FFF;
+        margin-bottom: 0px;
+        border: none;
+      }
+      .zipVarStore.btn:hover{
+        background: #a43a6e;
+      }
+      
+      
+      
+      #enterZip{
+          /* opacity: 0.0;
+          display: none; */
+          transition: all .5s;
+          background: #FFF;
+          font-family: 'Oswald','Bebas Neue','Impact',condensed,sans-serif;
+          font-size: 1.75rem;
+          border-radius: 200px;
+          border: none;
+      }
