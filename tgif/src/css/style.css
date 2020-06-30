@@ -155,8 +155,6 @@ h1,h2,h4,h5,h6{
       
       
       #enterZip{
-          /* opacity: 0.0;
-          display: none; */
           transition: all .5s;
           background: #FFF;
           font-family: 'Oswald','Bebas Neue','Impact',condensed,sans-serif;

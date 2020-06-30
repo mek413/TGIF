@@ -1,0 +1,29 @@
+{
+  "name": "tgif",
+  "version": "1.0.0",
+  "description": "This version of TGIF will include react and new authentication methods.",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'tgif/*'\" \"npm run client\"",
+    "client": "cd tgif && npm run start",
+    "install": "cd tgif && npm install",
+    "build": "cd react-app && npm install && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mek413/TGIF.git"
+  },
+  "author": "mek413",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mek413/TGIF/issues"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.18.7"
+  },
+  "homepage": "https://github.com/mek413/TGIF#readme"
+}
